@@ -1,0 +1,28 @@
+{
+  "name": "rollup-template-for-component-lib",
+  "version": "0.0.1",
+  "description": "component library を作るための rollup template",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadnessOjisan/rollup-template-for-component-lib.git"
+  },
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "rollup"
+  ],
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/sadnessOjisan/rollup-template-for-component-lib/issues"
+  },
+  "homepage": "https://github.com/sadnessOjisan/rollup-template-for-component-lib#readme",
+  "devDependencies": {
+    "rollup": "^2.28.2"
+  }
+}
