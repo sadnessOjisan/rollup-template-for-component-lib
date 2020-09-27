@@ -1,3 +1,1 @@
-import { Component } from "./Component";
-
-console.log(Component);
+export * from "./Component";
