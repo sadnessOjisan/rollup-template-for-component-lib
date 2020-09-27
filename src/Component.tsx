@@ -1,9 +1,16 @@
 import * as React from "react";
+import styled from "styled-components";
 
 interface Props {
-  name: string;
+  message: string;
 }
 
-export const Component: React.FC<Props> = () => {
-  return <div>hello</div>;
+const _Component: React.FC<Props> = (props) => {
+  return <div>{props.message}</div>;
 };
+
+const StyledComponent = styled(_Component)`
+  color: blue;
+`;
+
+export const Component = StyledComponent;

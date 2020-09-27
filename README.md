@@ -7,9 +7,10 @@ component library を作るための rollup template
 - [x] TS 対応
 - [x] 型定義を出力
 - [ ] 画像読み込み(png, jpg, gif)
-- [ ] tag から npm publish
-- [ ] minify
+- [x] tag から npm publish
+- [x] minify
 - [ ] styling
+- [ ] test を追加
 
 ## trouble shooting
 
