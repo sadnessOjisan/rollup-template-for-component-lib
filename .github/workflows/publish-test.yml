@@ -1,8 +1,8 @@
-name: publish
+name: publish-test
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - master
 jobs:
   release:
     name: check version, add tag and release
