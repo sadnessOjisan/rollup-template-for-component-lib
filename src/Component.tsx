@@ -9,8 +9,9 @@ const _Component: React.FC<Props> = (props) => {
   return <div>{props.message}</div>;
 };
 
-const StyledComponent = styled(_Component)`
+export const StyledComponent = styled(_Component)`
   color: blue;
+  & div {
+    color: red;
+  }
 `;
-
-export const Component = StyledComponent;

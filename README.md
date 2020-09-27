@@ -2,6 +2,10 @@
 
 component library を作るための rollup template
 
+## note
+
+https://github.com/styled-components/styled-components/issues/3045#issuecomment-687088347 の問題があるので s-c は 4.4.1 にデグレした
+
 ## todo
 
 - [x] TS 対応
