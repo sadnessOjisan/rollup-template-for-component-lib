@@ -1,1 +1,3 @@
-export { Component } from "./Component";
+import { Component } from "./Component";
+
+console.log(Component);

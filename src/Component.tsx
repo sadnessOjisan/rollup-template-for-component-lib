@@ -1,5 +1,9 @@
 import * as React from "react";
 
-export const Component: React.FC = () => {
+interface Props {
+  name: string;
+}
+
+export const Component: React.FC<Props> = () => {
   return <div>hello</div>;
 };
