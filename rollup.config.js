@@ -8,7 +8,7 @@ export default {
   input: "src/index.ts",
   output: {
     file: "dist/bundle.js",
-    format: "cjs",
+    format: "esm",
     sourcemap: true,
   },
   // TODO: 読み込み順を考える

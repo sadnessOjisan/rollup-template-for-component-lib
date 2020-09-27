@@ -1,6 +1,6 @@
 {
   "name": "@sadness.ojisan/rollup-template-for-component-lib",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "component library を作るための rollup template",
   "main": "dist/bundle.js",
   "scripts": {
